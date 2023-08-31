@@ -13,13 +13,13 @@ public class Seller implements Serializable{
 	private Date birthDate;
 	private Double baseSalary;
 	
-	private Departament departmanet;
+	private Department departmanet;
 	
 	public Seller() {
 		
 	}
 
-	public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary, Departament departmanet) {
+	public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary, Department departmanet) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
@@ -68,11 +68,11 @@ public class Seller implements Serializable{
 		this.baseSalary = baseSalary;
 	}
 
-	public Departament getDepartmanet() {
+	public Department getDepartmanet() {
 		return departmanet;
 	}
 
-	public void setDepartmanet(Departament departmanet) {
+	public void setDepartmanet(Department departmanet) {
 		this.departmanet = departmanet;
 	}
 
